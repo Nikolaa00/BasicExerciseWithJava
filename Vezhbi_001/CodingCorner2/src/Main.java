@@ -8,9 +8,9 @@ public class Main {
 
 
         System.out.println("Vnesi brend na avtomobil:");
-        String brend = scanner.next();
+        String brаnd = scanner.next();
        
-        switch (brend) {
+        switch (brаnd) {
             case "Mercedes":
             case "Audi":
             case "BMW":
@@ -33,14 +33,11 @@ public class Main {
             case "Ferrari":
             case "Lamborghini":
             case "Fiat":
-
                 System.out.println("Italy!\n");
                 break;
             case "Jeep":
             case "Tesla":
-
             case "Cadillac":
-
                 System.out.println("USA!\n");
                 break;
             default:
